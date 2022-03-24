@@ -1,5 +1,5 @@
 # teste
-Repositório de teste de trabalho em equipe
+Repositório de teste para trabalho em equipe
 
 ## Instale as dependências
 

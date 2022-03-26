@@ -20,6 +20,8 @@ def main():
 
     response = response.json()
 
+   
+
     print(f"CEP: {response['cep'] or 'Indisponível'}")
     print(f"Logradouro: {response['logradouro'] or 'Indisponível'}")
     print(f"Complemento: {response['complemento'] or 'Indisponível'}")
@@ -30,6 +32,8 @@ def main():
     print(f"IBGE: {response['ibge'] or 'Indisponível'}")
     print(f"GIA: {response['gia'] or 'Indisponível'}")
     print(f"DDD: {response['ddd'] or 'Indisponível'}")
+    print(f"DDD: {response['ddd'] or 'Indisponível'}")
 
 if __name__ == "__main__":
     main()
+
